@@ -1,0 +1,30 @@
+========================================
+ Bike Sharing Error Analysis Report 
+========================================
+
+Test Dataset Shape: (1376, 41)
+
+Forecasting Metrics:
+
+MAE  : 3.12
+RMSE : 6.52
+R²   : 0.9987
+
+Error Statistics:
+
+Average Error: 0.42
+Maximum Error: 83.13
+Minimum Error: -57.56
+Average Absolute Error: 3.12
+Average Percentage Error: 1.79%
+
+Business Insights:
+- Forecast accuracy is strong for operational planning.
+- Prediction errors increase during peak demand periods.
+- Weather and rush-hour demand contribute to volatility.
+- XGBoost handles nonlinear demand behavior effectively.
+
+Operational Recommendations:
+- Refresh forecasts every 1-3 hours.
+- Monitor holiday and weekend demand separately.
+- Retrain models seasonally for better accuracy.
