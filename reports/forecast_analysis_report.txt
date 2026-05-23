@@ -1,0 +1,28 @@
+========================================
+ Bike Sharing Forecast Analysis Report 
+========================================
+
+Test Dataset Shape: (1376, 41)
+
+Forecasting Metrics:
+
+MAE  : 3.12
+RMSE : 6.52
+R²   : 0.9987
+
+Forecast Insights:
+- XGBoost captures seasonal demand patterns effectively.
+- Forecast accuracy is suitable for operational planning.
+- Peak-hour demand shows higher forecasting volatility.
+- Weather conditions significantly influence demand.
+
+Operational Recommendations:
+- Refresh forecasts every 1-3 hours.
+- Retrain models monthly or seasonally.
+- Monitor weekends and holidays separately.
+- Use forecasts for staffing and inventory optimization.
+
+Planning Horizon Recommendation:
+- Short-term forecasting (1-7 days) provides highest accuracy.
+- Medium-term forecasting (1-4 weeks) is suitable for operational planning.
+- Long-term forecasts require periodic retraining and weather updates.

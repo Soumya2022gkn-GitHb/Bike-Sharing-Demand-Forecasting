@@ -120,6 +120,7 @@ graphs/error_distribution.png
 ![alt text](error_distribution.png)
 ---
 
+
 ## Prediction Comparison Plot
 
 ```text
@@ -127,6 +128,7 @@ graphs/prediction_vs_actual.png
 ```
 ![alt text](prediction_vs_actual.png)
 ---
+
 
 # Workflow
 
