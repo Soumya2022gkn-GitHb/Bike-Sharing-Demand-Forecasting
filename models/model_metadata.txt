@@ -1,0 +1,15 @@
+========================================
+ Model Metadata 
+========================================
+
+Timestamp: 20260523_202351
+
+Model: linear_regression_model.pkl
+Model: random_forest_model.pkl
+Model: xgboost_model.pkl
+Model: scaler.pkl
+
+Forecasting Target: cnt
+Project: Bike_Sharing_Demand_Forecasting
+Best Model: XGBoost
+Deployment Ready: Yes
