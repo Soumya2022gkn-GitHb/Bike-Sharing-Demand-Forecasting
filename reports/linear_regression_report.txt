@@ -1,0 +1,16 @@
+========================================
+ Linear Regression Evaluation Report 
+========================================
+
+Training Shape : (5502, 41)
+Testing Shape  : (1376, 41)
+
+Mean Absolute Error (MAE) : 0.0
+Root Mean Squared Error (RMSE) : 0.0
+R² Score : 1.0
+
+Business Summary:
+- Linear Regression provides a simple baseline forecasting model.
+- Useful for understanding feature relationships.
+- Fast training and easy interpretability.
+- May underperform on complex seasonal demand patterns.
