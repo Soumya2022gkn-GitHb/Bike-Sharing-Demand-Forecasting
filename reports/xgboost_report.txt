@@ -1,0 +1,16 @@
+========================================
+ XGBoost Evaluation Report 
+========================================
+
+Training Shape : (5502, 41)
+Testing Shape  : (1376, 41)
+
+Mean Absolute Error (MAE) : 3.12
+Root Mean Squared Error (RMSE) : 6.52
+R² Score : 0.9987
+
+Business Summary:
+- XGBoost provides high forecasting accuracy.
+- Effectively captures nonlinear demand behavior.
+- Handles seasonality and weather dependencies.
+- Strong candidate for production deployment.
