@@ -2,12 +2,12 @@
  Random Forest Evaluation Report 
 ========================================
 
-Training Shape : (5502, 41)
-Testing Shape  : (1376, 41)
+Training Shape : (13903, 41)
+Testing Shape  : (3476, 41)
 
-Mean Absolute Error (MAE) : 1.93
-Root Mean Squared Error (RMSE) : 4.71
-R² Score : 0.9993
+Mean Absolute Error (MAE) : 1.09
+Root Mean Squared Error (RMSE) : 2.98
+R² Score : 0.9997
 
 Business Summary:
 - Random Forest captures complex demand relationships.

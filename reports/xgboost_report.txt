@@ -2,12 +2,12 @@
  XGBoost Evaluation Report 
 ========================================
 
-Training Shape : (5502, 41)
-Testing Shape  : (1376, 41)
+Training Shape : (13903, 41)
+Testing Shape  : (3476, 41)
 
-Mean Absolute Error (MAE) : 3.12
-Root Mean Squared Error (RMSE) : 6.52
-R² Score : 0.9987
+Mean Absolute Error (MAE) : 2.24
+Root Mean Squared Error (RMSE) : 4.85
+R² Score : 0.9993
 
 Business Summary:
 - XGBoost provides high forecasting accuracy.

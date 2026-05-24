@@ -2,7 +2,7 @@
  Bike Sharing Forecasting Evaluation Report 
 ========================================
 
-Test Dataset Shape: (1376, 41)
+Test Dataset Shape: (3476, 41)
 
 Model Performance Summary:
 
@@ -12,14 +12,14 @@ RMSE : 0.0
 R²   : 1.0
 
 Model: Random Forest
-MAE  : 1.93
-RMSE : 4.71
-R²   : 0.9993
+MAE  : 1.09
+RMSE : 2.98
+R²   : 0.9997
 
 Model: XGBoost
-MAE  : 3.12
-RMSE : 6.52
-R²   : 0.9987
+MAE  : 2.24
+RMSE : 4.85
+R²   : 0.9993
 
 ========================================
  Best Forecasting Model 

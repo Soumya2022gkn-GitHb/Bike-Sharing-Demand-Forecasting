@@ -2,21 +2,21 @@
  Bike Sharing Error Analysis Report 
 ========================================
 
-Test Dataset Shape: (1376, 41)
+Test Dataset Shape: (3476, 41)
 
 Forecasting Metrics:
 
-MAE  : 3.12
-RMSE : 6.52
-R²   : 0.9987
+MAE  : 2.24
+RMSE : 4.85
+R²   : 0.9993
 
 Error Statistics:
 
-Average Error: 0.42
-Maximum Error: 83.13
-Minimum Error: -57.56
-Average Absolute Error: 3.12
-Average Percentage Error: 1.79%
+Average Error: 0.02
+Maximum Error: 62.64
+Minimum Error: -56.58
+Average Absolute Error: 2.24
+Average Percentage Error: 1.49%
 
 Business Insights:
 - Forecast accuracy is strong for operational planning.
