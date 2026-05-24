@@ -1,0 +1,31 @@
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_start | Line:217 | ============================================================
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_start | Line:222 | Starting Pipeline: Bike Demand Forecasting
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_start | Line:227 | ============================================================
+2026-05-24 08:41:28 | INFO | logger.py | log_info | Line:170 | Logger initialized successfully.
+2026-05-24 08:41:28 | WARNING | logger.py | log_warning | Line:178 | This is a sample warning.
+2026-05-24 08:41:28 | ERROR | logger.py | log_error | Line:186 | This is a sample error.
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:501 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:506 | Business Insights
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:511 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:518 | Peak-hour rentals drive demand growth.
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:518 | Weather significantly impacts bike usage.
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:518 | Weekend demand differs from weekdays.
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:518 | Seasonality affects operational planning.
+2026-05-24 08:41:28 | INFO | logger.py | log_business_insights | Line:518 | Short-term forecasts improve logistics.
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:456 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:461 | Operational Recommendations
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:466 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:473 | Refresh forecasts every 1-3 hours.
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:473 | Monitor weather-driven demand spikes.
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:473 | Retrain models seasonally.
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:473 | Track prediction drift regularly.
+2026-05-24 08:41:28 | INFO | logger.py | log_operational_recommendations | Line:473 | Validate operational forecasting daily.
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:535 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:540 | System Information
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:545 | ========================================
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:550 | Operating System: Windows
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:556 | OS Version: 10.0.19045
+2026-05-24 08:41:28 | INFO | logger.py | log_system_info | Line:562 | Python Version: 3.10.9
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_end | Line:245 | ============================================================
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_end | Line:250 | Completed Pipeline: Bike Demand Forecasting
+2026-05-24 08:41:28 | INFO | logger.py | log_pipeline_end | Line:255 | ============================================================
