@@ -1,0 +1,53 @@
+
+Column: month_name
+April -> 0
+August -> 1
+December -> 2
+February -> 3
+January -> 4
+July -> 5
+June -> 6
+March -> 7
+May -> 8
+November -> 9
+October -> 10
+September -> 11
+
+Column: day_name
+Friday -> 0
+Monday -> 1
+Saturday -> 2
+Sunday -> 3
+Thursday -> 4
+Tuesday -> 5
+Wednesday -> 6
+
+Column: season_label
+Fall -> 0
+Spring -> 1
+Summer -> 2
+Winter -> 3
+
+Column: weather_label
+Clear -> 0
+Heavy_Rain -> 1
+Light_Rain -> 2
+Mist -> 3
+
+Column: demand_category
+High -> 0
+Low -> 1
+Medium -> 2
+Very_High -> 3
+
+Column: hour_group
+Afternoon -> 0
+Evening -> 1
+Morning -> 2
+Night -> 3
+
+Column: weather_severity
+Good -> 0
+Moderate -> 1
+Poor -> 2
+Severe -> 3

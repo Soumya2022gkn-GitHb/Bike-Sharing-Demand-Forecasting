@@ -1,0 +1,42 @@
+2026-05-24 08:58:17 | INFO | logger.py | log_pipeline_start | Line:217 | ============================================================
+2026-05-24 08:58:17 | INFO | logger.py | log_pipeline_start | Line:222 | Starting Pipeline: Bike Sharing Demand Forecasting
+2026-05-24 08:58:17 | INFO | logger.py | log_pipeline_start | Line:227 | ============================================================
+2026-05-24 08:58:17 | INFO | logger.py | log_info | Line:170 | Executing script: data_ingestion/load_data.py
+2026-05-24 08:58:17 | INFO | logger.py | log_info | Line:170 | Completed script: data_ingestion/load_data.py
+2026-05-24 08:58:17 | INFO | logger.py | log_info | Line:170 | Executing script: data_ingestion/validate_data.py
+2026-05-24 08:58:18 | INFO | logger.py | log_info | Line:170 | Completed script: data_ingestion/validate_data.py
+2026-05-24 08:58:18 | INFO | logger.py | log_info | Line:170 | Executing script: data_ingestion/preprocess_data.py
+2026-05-24 08:58:19 | INFO | logger.py | log_info | Line:170 | Completed script: data_ingestion/preprocess_data.py
+2026-05-24 08:58:19 | INFO | logger.py | log_info | Line:170 | Executing script: feature_engineering/create_time_features.py
+2026-05-24 08:58:21 | INFO | logger.py | log_info | Line:170 | Completed script: feature_engineering/create_time_features.py
+2026-05-24 08:58:21 | INFO | logger.py | log_info | Line:170 | Executing script: feature_engineering/encode_features.py
+2026-05-24 08:58:23 | INFO | logger.py | log_info | Line:170 | Completed script: feature_engineering/encode_features.py
+2026-05-24 08:58:23 | INFO | logger.py | log_info | Line:170 | Executing script: feature_engineering/scale_features.py
+2026-05-24 08:58:27 | INFO | logger.py | log_info | Line:170 | Completed script: feature_engineering/scale_features.py
+2026-05-24 08:58:27 | INFO | logger.py | log_info | Line:170 | Executing script: training/train_linear_regression.py
+2026-05-24 08:58:29 | INFO | logger.py | log_info | Line:170 | Completed script: training/train_linear_regression.py
+2026-05-24 08:58:29 | INFO | logger.py | log_info | Line:170 | Executing script: training/train_random_forest.py
+2026-05-24 08:58:36 | INFO | logger.py | log_info | Line:170 | Completed script: training/train_random_forest.py
+2026-05-24 08:58:36 | INFO | logger.py | log_info | Line:170 | Executing script: training/train_xgboost.py
+2026-05-24 08:58:40 | INFO | logger.py | log_info | Line:170 | Completed script: training/train_xgboost.py
+2026-05-24 08:58:40 | INFO | logger.py | log_info | Line:170 | Executing script: training/save_models.py
+2026-05-24 08:58:42 | INFO | logger.py | log_info | Line:170 | Completed script: training/save_models.py
+2026-05-24 08:58:42 | INFO | logger.py | log_info | Line:170 | Executing script: evaluation/evaluate_models.py
+2026-05-24 08:58:44 | INFO | logger.py | log_info | Line:170 | Completed script: evaluation/evaluate_models.py
+2026-05-24 08:58:44 | INFO | logger.py | log_info | Line:170 | Executing script: evaluation/error_analysis.py
+2026-05-24 08:58:47 | INFO | logger.py | log_info | Line:170 | Completed script: evaluation/error_analysis.py
+2026-05-24 08:58:47 | INFO | logger.py | log_info | Line:170 | Executing script: evaluation/forecast_analysis.py
+2026-05-24 08:58:50 | INFO | logger.py | log_info | Line:170 | Completed script: evaluation/forecast_analysis.py
+2026-05-24 08:58:50 | INFO | logger.py | log_info | Line:170 | Executing script: visualization/plot_demand_trends.py
+2026-05-24 08:58:53 | INFO | logger.py | log_info | Line:170 | Completed script: visualization/plot_demand_trends.py
+2026-05-24 08:58:53 | INFO | logger.py | log_info | Line:170 | Executing script: visualization/plot_feature_importance.py
+2026-05-24 08:58:56 | INFO | logger.py | log_info | Line:170 | Completed script: visualization/plot_feature_importance.py
+2026-05-24 08:58:56 | INFO | logger.py | log_info | Line:170 | Executing script: visualization/plot_predictions.py
+2026-05-24 08:59:00 | INFO | logger.py | log_info | Line:170 | Completed script: visualization/plot_predictions.py
+2026-05-24 08:59:00 | INFO | logger.py | log_info | Line:170 | Executing script: visualization/plot_error_distribution.py
+2026-05-24 08:59:03 | INFO | logger.py | log_info | Line:170 | Completed script: visualization/plot_error_distribution.py
+2026-05-24 08:59:03 | INFO | logger.py | log_info | Line:170 | Pipeline execution completed in 46.34 seconds
+2026-05-24 08:59:03 | INFO | logger.py | log_pipeline_end | Line:245 | ============================================================
+2026-05-24 08:59:03 | INFO | logger.py | log_pipeline_end | Line:250 | Completed Pipeline: Bike Sharing Demand Forecasting
+2026-05-24 08:59:03 | INFO | logger.py | log_pipeline_end | Line:255 | ============================================================
+2026-05-24 08:59:22 | INFO | logger.py | log_info | Line:170 | Launching Streamlit dashboard...
